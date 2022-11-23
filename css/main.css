@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500&display=swap');
+
 html {
     /* content stays responsive */
     box-sizing: border-box;
@@ -5,4 +8,50 @@ html {
   /* adding above property to all the elements by default */
   * {
     box-sizing: inherit;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    line-height: 1.5;
+  }
+  
+  nav {
+    background-color: #5164a9;
+  }
+
+  /* /e67f62 */
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1.25em 0 1.25em 0;
+  }
+  
+  nav ul li {
+    padding: 0 .5em;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  section.intro img {
+    max-width: 20em;
   }
