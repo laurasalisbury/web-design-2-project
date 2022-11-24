@@ -1,23 +1,49 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,400;0,500;1,200;1,400;1,500&display=swap');
 
-html {
-    /* content stays responsive */
+  html {
     box-sizing: border-box;
   }
-  /* adding above property to all the elements by default */
+  
   * {
     box-sizing: inherit;
   }
-
 
   body {
     margin: 0;
     padding: 0;
     color: #222;
+
+    font-family: 'Poppins', sans-serif;
     line-height: 1.5;
   }
+
+  .hero-banner {
+    width: 100%;
+    height: 40vh; /* */
+    background-color: #000;
+    background-image: url("../images/pencils.jpg");
+    /* background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
+    background-size: cover;
+    filter: grayscale(60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
+  h1 {
+    font-family: 'Lobster', cursive;
+    line-height: 1.5;
+  }
+
+  nav .p {
+    margin: 0;
+    padding-left: 0;
+    align-content: center;
+  }
+
   nav {
     background-color: #5164a9;
   }
@@ -55,3 +81,29 @@ html {
   section.intro img {
     max-width: 20em;
   }
+
+  .reviews div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .bottom {
+    height: 20vh; /* */
+    background-color: #000;
+    background-image: url("../images/crayons.jpg");
+    background-position: center center;
+  }
+
+  footer {
+    background-color: #5164a9;
+  }
+
+  .cards {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (min-width: 48em) {
+    .nav-toggle-label {
+      display: none;
+    }
