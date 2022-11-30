@@ -167,19 +167,18 @@
   height: 40vh; /* */
   background-color: #000;
   background-image: url("../images/pencils.jpg");
-  /* background-repeat: no-repeat;
-  background-position: center center;
-  /* background-size: cover; */
   background-size: cover;
   filter: grayscale(60%);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 h1 {
   font-family: 'Lobster', cursive;
+  font-size: 48px;
   line-height: 1.5;
+  padding: 1em 5em 1em 1em;
 }
 
 
