@@ -15,7 +15,6 @@
     margin: 0;
     padding: 0;
     color: #222;
-
     font-family: 'Poppins', sans-serif;
     line-height: 1.5;
   }
@@ -118,11 +117,6 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-
-  footer {
-    background-color: #5164a9;
-  }
-
   .cards {
     display: flex;
     grid-template-columns: 1fr 1fr;
@@ -177,10 +171,25 @@ h2 {
   background-image: url("../images/crayons.jpg");
   background-size: cover;
   background-position: bottom;
-  /* background-repeat: no-repeat; */
-  /* background-size: contain; */
   filter: grayscale(60%);
-  
+  /* justify-content: center; */
+/* how to center buttons? */
+}
+
+footer {
+  background-color: #5164a9;
+}
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
 }
 
 
