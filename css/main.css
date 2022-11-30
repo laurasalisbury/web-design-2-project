@@ -20,29 +20,6 @@
     line-height: 1.5;
   }
 
-  /* nav is hidden in mobile */
-  /* nav {
-  display: none;
-  } */
-
-  /* input.nav-toggle {
-    display: none;
-  }
-
-  input.nav-toggle:checked ~ nav {
-    display: block;
-  }
-
-  label.nav-toggle-label {
-    display: block;
-  } */
-
-  /* nav .p {
-    margin: 0;
-    padding-left: 0;
-    align-content: center;
-  } */
-
   .top-nav {
     background-color: #5164a9;
     display: flex;
@@ -132,11 +109,6 @@
     text-decoration: underline;
   }
 
-  .intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
   section.intro img {
     max-width: 20em;
   }
@@ -146,12 +118,6 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .bottom {
-    height: 20vh;
-    background-color: #000;
-    background-image: url("../images/crayons.jpg");
-    background-position: center center;
-  }
 
   footer {
     background-color: #5164a9;
@@ -179,6 +145,42 @@ h1 {
   font-size: 48px;
   line-height: 1.5;
   padding: 1em 5em 1em 1em;
+}
+
+.intro {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 2em;
+}
+
+.intro img {
+  /* centre image */
+}
+
+h2 {
+ /* margin: 2rem;  */
+}
+
+.reviews {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* margin: 2rem; */
+  padding: 2rem;
+  gap: 0.5em;
+  background-color: #E5E5DE;
+}
+
+.bottom {
+  height: 20vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url("../images/crayons.jpg");
+  background-size: cover;
+  background-position: bottom;
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+  filter: grayscale(60%);
+  
 }
 
 
