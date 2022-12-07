@@ -152,6 +152,11 @@ section.intro img {
   justify-content: left;
 }
 
+.contact {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 35px;
@@ -402,8 +407,7 @@ form {
   .reviews {
     display: flex;
     flex-direction: row;
-    /* grid-template-rows: 1fr 1fr 1fr; */
-    /* margin: 2rem; */
+    /* i think the first item is growing faster */
     padding: 0rem 2rem 2rem 2rem;
     gap: 0.5em;
     background-color: #E5E5DE;
@@ -412,7 +416,10 @@ form {
   .cards {
     grid-template-columns: 1fr 1fr;
   }
+
+  
 }
+
 
 /* desktop */
 @media only screen and (min-width: 60em) {
@@ -424,5 +431,9 @@ form {
 
   .cards {
     grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .contact {
+    grid-template-columns: 1fr 1fr;
   }
 }
