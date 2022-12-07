@@ -151,12 +151,17 @@ margin: 2em;
 }
 
 h2 {
-/* margin: 2rem;  */
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  /* margin: 0em; */
+  /* padding: 0em;   */
+  line-height: 0;
 }
 
 .reviews {
-display: grid;
-grid-template-rows: 1fr 1fr 1fr 1fr;
+display: flex;
+flex-direction: column;
+/* grid-template-rows: 1fr 1fr 1fr; */
 /* margin: 2rem; */
 padding: 2rem;
 gap: 0.5em;
@@ -173,6 +178,16 @@ background-position: bottom;
 filter: grayscale(60%);
 /* justify-content: center; */
 /* how to center buttons? */
+}
+
+button {
+  display: flex;
+  justify-content: center;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .about-hero {
@@ -192,12 +207,18 @@ align-items: center;
 /* justify-content: left; */
 }
 
+blockquote p {
+  margin: 0;
+}
+
 footer {
 background-color: #5164a9;
 }
 
 footer p {
-justify-content: right;
+text-align: right;
+text-align: ;
+margin: 0;
 /* how to right align text */
 }
 
@@ -205,6 +226,7 @@ justify-content: right;
 {
 padding-left:0;
 margin-bottom:0;
+margin-top:0;
 list-style:none
 }
 .social-icons li
@@ -278,16 +300,28 @@ h1 {
   padding: 1em 5em 1em 1em;
 }
 
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  /* margin: 2rem; */
+  padding: 2rem;
+  gap: 0.5em;
+  background-color: #E5E5DE;
+  }
 
 }
 
 /* desktop */
 @media only screen and (min-width: 60em) {
-
   h1 {
     font-size: 70px;
     line-height: 1.5;
     padding: 1em 5em 1em 1em;
   }
-
 }
