@@ -139,6 +139,19 @@ section.intro img {
   justify-content: left;
 }
 
+.hero-banner-contact {
+  width: 100%;
+  height: 40vh;
+  /* background is covering my nav bar */
+  background-color: #000;
+  background-image: url("../images/toys.jpg");
+  background-size: cover;
+  filter: grayscale(60%);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 35px;
@@ -194,11 +207,6 @@ h2 {
   /* how to center buttons? */
 }
 
-button {
-  display: flex;
-  justify-content: center;
-  background-color: #e67f62;
-}
 
 .intro {
   display: grid;
@@ -209,14 +217,12 @@ button {
   margin: 1em;
 }
 
-button {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+/* button {
+  display: flex;
+  justify-content: center;
+  background-color: 
+} */
+
 
 .about-hero { 
   /* how can i make this not stretched! */
@@ -278,6 +284,58 @@ footer p {
   text-align: center;
   max-width: 300px;
 }
+
+form {
+  /* how do i centre this? */
+  padding: 50px;
+}
+ 
+ input[type=text]{
+   display: inline-block;
+   border: none;
+   text-align: left;
+   box-shadow: 3px 2px #e67f62;
+   padding: 10px;
+   width: 350px;
+   margin: 10px 0;
+   background: transparent;
+   /* color: #FFF; */
+ }
+ 
+ input[type=text]:focus{
+   background: none;
+   border: none;
+   /* color: #FFF; */
+ }
+ 
+ button {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: #e67f62;
+}
+
+ button{
+   background-color: #e67f62;
+   color: #FFF;
+   font-family: Poppins;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   margin: 20px 0;
+   padding: 10px 30px;
+   border: 2px solid #FFF;
+   z-index: 200;
+ }
+ 
+ button:hover{
+   background: transparent;
+   color: #000;
+   border: 2px solid  #5164a9;
+ }
+
 
 @media (max-width: 700px) {
 
