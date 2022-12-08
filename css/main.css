@@ -29,6 +29,10 @@ body {
   z-index: 100;
 }
 
+.top-nav img {
+  max-width: 150px;
+}
+
 .orange {
   height: 20px;
   background-color:#e67f62;
@@ -392,6 +396,10 @@ form {
 /* tablet */
 @media only screen and (min-width: 38em) {
 
+  .top-nav img {
+    max-width: 200px;
+  }
+  
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -423,6 +431,10 @@ form {
 
 /* desktop */
 @media only screen and (min-width: 60em) {
+  .top-nav img {
+    /* position: ; */
+  }
+  
   h1 {
     font-size: 70px;
     line-height: 1.5;
