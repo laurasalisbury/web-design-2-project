@@ -161,11 +161,17 @@ section.intro img {
   grid-template-columns: 1fr;
 }
 
+
+
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 35px;
   line-height: 1.5;
   padding: 1em 5em 1em 1em;
+}
+
+.contact h1 {
+  padding: 1rem;
 }
 
 .intro {
@@ -181,7 +187,6 @@ h1 {
 h2 {
   font-family: 'Lobster', cursive;
   font-size: 35px;
-  /* margin: 1em; */
   padding: 1em;  
   line-height: 0;
 }
@@ -242,7 +247,6 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  filter: grayscale(60%);
 }
 
 blockquote p {
@@ -256,7 +260,6 @@ footer {
 
 footer p {
   text-align: right;
-  text-align: ;
   margin: 0;
 /* how to right align text */
 }
@@ -284,15 +287,35 @@ footer p {
 /* I want the h2 to be overlapping */
 }
 
-.cards img {
-  margin: auto;
-  max-width: 300px;
-}
-
 .cards article {
   text-align: center;
-  max-width: 300px;
+  display: flex;
+  /* max-width: 300px;
+  min-height: 300px; */
+  position: relative;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 }
+
+.cards article h2 {
+  position: absolute;
+  align-self: center;
+}
+
+.cards img {
+  /* margin: auto; */
+  height: 100%;
+  object-fit: cover;
+}
+/* 
+.grow {
+  max-width: 100%;
+  max-height: none;
+} */
 
 form {
   /* how do i centre this? */
@@ -336,7 +359,7 @@ form {
    margin: 20px 0;
    padding: 10px 30px;
    border: 2px solid #FFF;
-   /* z-index: 200; */
+   z-index: 1000;
  }
  
  button:hover{
