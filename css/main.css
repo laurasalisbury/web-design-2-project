@@ -175,10 +175,8 @@ section.intro {
 .contact {
   display: flex;
   flex-direction: column;
-}
-
-.contact p {
-  margin: 1rem;
+  margin: 2rem;
+  justify-content: space-around;
 }
 
 h1 {
@@ -189,7 +187,7 @@ h1 {
 }
 
 .contact h1 {
-  padding: 1rem;
+  padding: 0rem;
   margin: auto;
 }
 
@@ -362,19 +360,20 @@ form {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-color: #e67f62;
+  background-color: #e67f62;
+  color: #FFF;
+  font-family: Poppins;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 20px 0;
+  padding: 10px 30px;
+  border: 2px solid #FFF;
 }
 
- button{
-   background-color: #e67f62;
-   color: #FFF;
-   font-family: Poppins;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   margin: 20px 0;
-   padding: 10px 30px;
-   border: 2px solid #FFF;
-   z-index: 1000;
- }
+form button {
+  position: static;
+  /* left: 175px; */
+}
  
  button:hover{
    background-color: #FFF;
@@ -462,7 +461,9 @@ form {
     grid-template-columns: 1fr 1fr;
   }
 
-  
+  form button {
+    position: static;
+  }
 }
 
 
