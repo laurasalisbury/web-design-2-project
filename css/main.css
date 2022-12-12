@@ -164,22 +164,22 @@ section.intro {
 .hero-banner-contact {
   width: 100%;
   height: 40vh;
-  /* background is covering my nav bar */
   background-color: #000;
   background-image: url("../images/toys.jpg");
   background-size: cover;
-  /* filter: grayscale(60%); */
   display: flex;
   align-items: center;
   justify-content: left;
 }
 
 .contact {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
-
+.contact p {
+  margin: 1rem;
+}
 
 h1 {
   font-family: 'Lobster', cursive;
@@ -190,6 +190,7 @@ h1 {
 
 .contact h1 {
   padding: 1rem;
+  margin: auto;
 }
 
 .intro {
@@ -206,6 +207,10 @@ h2 {
   font-size: 35px;
   padding: 1em;  
   line-height: 0;
+}
+
+.contact h1 {
+  margin: 0;
 }
 
 .review-heading {
@@ -327,7 +332,8 @@ footer p {
 
 form {
   /* how do i centre this? */
-  padding: 50px;
+  /* padding: 50px; */
+  margin-bottom: 0;
 }
  
  input[type=text]{
@@ -477,6 +483,6 @@ form {
   }
 
   .contact {
-    grid-template-columns: 1fr 1fr;
+    flex-direction: row;
   }
 }
