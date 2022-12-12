@@ -113,6 +113,13 @@ ul li {
   padding: 0 .5em;
 }
 
+span {
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+}
+
 ul li a {
   color: #fff;
   text-decoration: none;
@@ -127,8 +134,8 @@ section.intro img {
 }
 
 section.intro {
-
-  max-width: 1000px;
+  /* justify-content: center; */
+  /* max-width: 1000px; */
 }
 
 /* .reviews div {
@@ -186,15 +193,12 @@ h1 {
 }
 
 .intro {
-  justify-items: center;
-  align-items: center;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  margin: 2em;
-}
-
-.intro img {
-/* centre image */
+  /* justify-items: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
 }
 
 h2 {
@@ -234,22 +238,13 @@ h2 {
   /* how to center buttons? */
 }
 
-
-.intro {
-  display: grid;
-  grid-template-columns: 1fr;
+.intro p {
+  max-width: 500px;
 }
 
 .about p {
   margin: 1em;
 }
-
-/* button {
-  display: flex;
-  justify-content: center;
-  background-color: 
-} */
-
 
 .about-hero { 
   /* how can i make this not stretched! */
@@ -443,9 +438,9 @@ form {
   }
 
   .intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-height: 250px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 
   .reviews {
