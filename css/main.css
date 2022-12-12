@@ -16,6 +16,15 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   /* max-width: 1500px; */
+  <!-- solid style -->
+}
+
+.facebook {
+
+}
+
+.twitter {
+
 }
 
 .top-nav {
@@ -177,6 +186,7 @@ section.intro {
   flex-direction: column;
   margin: 2rem;
   justify-content: space-around;
+  max-width: 400px;
 }
 
 h1 {
@@ -483,7 +493,4 @@ form button {
     grid-template-columns: 2fr 1fr 1fr;
   }
 
-  .contact {
-    flex-direction: row;
-  }
 }
