@@ -15,6 +15,7 @@ body {
   color: #222;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
+  /* max-width: 1500px; */
 }
 
 .top-nav {
@@ -36,6 +37,11 @@ body {
 .orange {
   height: 20px;
   background-color:#e67f62;
+}
+
+.purple {
+  height: 10px;
+  background-color:#5164a9;
 }
 
 .menu {
@@ -120,6 +126,11 @@ section.intro img {
   max-width: 20em;
 }
 
+section.intro {
+
+  max-width: 1000px;
+}
+
 /* .reviews div {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -175,6 +186,8 @@ h1 {
 }
 
 .intro {
+  justify-items: center;
+  align-items: center;
   display: grid;
   grid-template-rows: 1fr 1fr;
   margin: 2em;
