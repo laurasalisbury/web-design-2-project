@@ -259,7 +259,6 @@ p {
 }
 
 .about-hero { 
-  /* how can i make this not stretched! */
   height: 50vh;
   width: 100%;
   background-color: #000;
@@ -324,6 +323,12 @@ footer p {
 .cards article h2 {
   position: absolute;
   align-self: center;
+  color: #FFF;
+  background-color: #5164a9;
+}
+
+.h2 {
+
 }
 
 .cards img {
