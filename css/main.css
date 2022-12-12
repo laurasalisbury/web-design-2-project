@@ -191,13 +191,14 @@ h1 {
   font-family: 'Lobster', cursive;
   font-size: 35px;
   line-height: 1.5;
-  padding: 1rem;
+  padding: 0rem 2rem;
+  margin: 0;
 }
 
-h1 {
+/* h1 {
   padding: 0;
   margin: auto;
-}
+} */
 
 p {
   padding: 1rem;
@@ -217,10 +218,6 @@ h2 {
   font-size: 35px;
   padding: 1em;  
   line-height: 0;
-}
-
-.contact h1 {
-  margin: 0;
 }
 
 .review-heading {
@@ -451,7 +448,6 @@ form button {
   h1 {
     font-size: 48px;
     line-height: 1.5;
-    padding: 1em 1em 1em 1em;
   }
 
   .intro {
@@ -487,8 +483,6 @@ form button {
   
   h1 {
     font-size: 70px;
-    line-height: 1.5;
-    padding: 1em 1em 1em 1em;
   }
 
   .cards {
