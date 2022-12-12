@@ -191,12 +191,16 @@ h1 {
   font-family: 'Lobster', cursive;
   font-size: 35px;
   line-height: 1.5;
-  padding: 1em 5em 1em 1em;
+  padding: 1rem;
 }
 
-.contact h1 {
-  padding: 0rem;
+h1 {
+  padding: 0;
   margin: auto;
+}
+
+p {
+  padding: 1rem;
 }
 
 .intro {
@@ -253,7 +257,7 @@ h2 {
   max-width: 500px;
 }
 
-.about p {
+p {
   margin: 1em;
 }
 
@@ -447,7 +451,7 @@ form button {
   h1 {
     font-size: 48px;
     line-height: 1.5;
-    padding: 1em 5em 1em 1em;
+    padding: 1em 1em 1em 1em;
   }
 
   .intro {
@@ -484,11 +488,11 @@ form button {
   h1 {
     font-size: 70px;
     line-height: 1.5;
-    padding: 1em 5em 1em 1em;
+    padding: 1em 1em 1em 1em;
   }
 
   .cards {
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
 }
