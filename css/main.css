@@ -231,11 +231,14 @@ h2 {
 .reviews {
   display: flex;
   flex-direction: column;
-  /* grid-template-rows: 1fr 1fr 1fr; */
-  /* margin: 2rem; */
+  justify-content: space-around;
   padding: 0rem 2rem 2rem 2rem;
   gap: 0.5em;
   background-color: #E5E5DE;
+}
+
+.reviews p {
+  max-width: 400px;
 }
 
 .bottom {
@@ -353,6 +356,7 @@ form {
   /* how do i centre this? */
   /* padding: 50px; */
   margin-bottom: 0;
+  margin: auto;
 }
  
  input[type=text]{
@@ -391,8 +395,9 @@ form {
   border: 2px solid #FFF;
 }
 
-form button {
-  position: static;
+.contact button {
+  margin-top: 3rem;
+  max-width: fit-content;
   /* left: 175px; */
 }
  
@@ -466,6 +471,10 @@ form button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  blockquote {
+    margin: 0;
   }
 
   .reviews {
