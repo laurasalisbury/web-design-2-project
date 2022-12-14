@@ -356,7 +356,7 @@ form {
    border: 2px solid  #5164a9;
  }
 
-@media (max-width: 700px) {
+@media (max-width: 38em) {
 
   .menu-button-container {
     display: flex;
