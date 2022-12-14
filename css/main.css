@@ -15,16 +15,6 @@ body {
   color: #222;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
-  /* max-width: 1500px; */
-  <!-- solid style -->
-}
-
-.facebook {
-
-}
-
-.twitter {
-
 }
 
 .top-nav {
@@ -142,16 +132,6 @@ section.intro img {
   max-width: 25em;
 }
 
-section.intro {
-  /* justify-content: center; */
-  /* max-width: 1000px; */
-}
-
-/* .reviews div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-} */
-
 .cards {
   display: grid;
   grid-template-columns: 1fr;
@@ -195,18 +175,11 @@ h1 {
   margin: 0;
 }
 
-/* h1 {
-  padding: 0;
-  margin: auto;
-} */
-
 p {
   padding: 1rem;
 }
 
 .intro {
-  /* justify-items: center;
-  align-items: center; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -248,9 +221,6 @@ h2 {
   background-image: url("../images/crayons.jpg");
   background-size: cover;
   background-position: bottom;
-  /* filter: grayscale(60%); */
-  /* justify-content: center; */
-  /* how to center buttons? */
 }
 
 .intro p {
@@ -291,7 +261,6 @@ footer {
 footer p {
   text-align: right;
   margin: 0;
-/* how to right align text */
 }
 
 footer i {
@@ -310,17 +279,12 @@ footer ul {
   margin: 0;
   padding: 2rem 2rem;
   grid-template-columns: 1fr;
-  /* flex-direction: column; */
   gap: 1rem;
-/* i want these to be a square */
-/* I want the h2 to be overlapping */
 }
 
 .cards article {
   text-align: center;
   display: flex;
-  /* max-width: 300px;
-  min-height: 300px; */
   position: relative;
   height: 300px;
   width: 300px;
@@ -337,24 +301,12 @@ footer ul {
   background-color: #5164a9;
 }
 
-.h2 {
-
-}
-
 .cards img {
-  /* margin: auto; */
   height: 100%;
   object-fit: cover;
 }
-/* 
-.grow {
-  max-width: 100%;
-  max-height: none;
-} */
 
 form {
-  /* how do i centre this? */
-  /* padding: 50px; */
   margin-bottom: 0;
   margin: auto;
 }
@@ -368,13 +320,11 @@ form {
    width: 350px;
    margin: 10px 0;
    background: transparent;
-   /* color: #FFF; */
  }
  
  input[type=text]:focus{
    background: none;
    border: none;
-   /* color: #FFF; */
  }
  
  button {
@@ -398,7 +348,6 @@ form {
 .contact button {
   margin-top: 3rem;
   max-width: fit-content;
-  /* left: 175px; */
 }
  
  button:hover{
@@ -406,7 +355,6 @@ form {
    color: #000;
    border: 2px solid  #5164a9;
  }
-
 
 @media (max-width: 700px) {
 
@@ -486,21 +434,13 @@ form {
     background-color: #E5E5DE;
   }
 
-
   .cards {
     grid-template-columns: 1fr 1fr;
-  }
-
-  form button {
-    position: static;
   }
 }
 
 /* desktop */
 @media only screen and (min-width: 60em) {
-  .top-nav img {
-    /* position: ; */
-  }
   
   h1 {
     font-size: 70px;
@@ -509,5 +449,4 @@ form {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
-
 }
